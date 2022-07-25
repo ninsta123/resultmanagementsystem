@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize("resultManagement","root","Surya@123",{
+const sequelize = new Sequelize("School","myserver","nishtha!123A",{
     dialect: "mysql",
-    host: "localhost"
+    host: "myserver3456.mysql.database.azure.com"
 });
 
 module.exports = sequelize;
